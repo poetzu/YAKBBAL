@@ -1,7 +1,7 @@
 # YAKBBAL / 2020.08-2020.09
 
 <br>
-<img src="주소">
+<img src="https://user-images.githubusercontent.com/68896112/99145506-e00e4d80-26b2-11eb-8d32-0b1d6eee5ad8.png">
 <br>
 
 ## 주제
@@ -41,7 +41,7 @@
 
 
 ## DB 구성
-<br><img src="주소"><br>
+<br><img src="https://user-images.githubusercontent.com/68896112/99145519-0338fd00-26b3-11eb-8bf8-10cc118ce4ab.png"><br>
 
 ## 기능 구현
 * [회원관련](#회원관련)
@@ -53,31 +53,33 @@
 
 ## 회원관련
 * `jQuery`를 활용하여 비밀번호, 비밀번호 확인 유효성 검사하기
-* 유효성 검사를 하는 동시에 `Ajax`를 활용한 아이디 중복 확인 검사하기
-* `KAKAO 우편번호 API`를 활용하여 주소 찾기 구현<br>
-----전부수정-
-* `KAKAO 우편번호 API`를 활용하여 주소 찾기 구현<br>----
-<br><img src="주소f"><br>
+* `Ajax`를 활용한 아이디 중복 확인 검사하기
+* 비밀번호 찾기를 통해 임시 비밀번호 발급<br>
+<br><img src="https://user-images.githubusercontent.com/68896112/99145535-2663ac80-26b3-11eb-8cf0-d069fb6c167a.png"><br>
+<br><img src="https://user-images.githubusercontent.com/68896112/99145536-26fc4300-26b3-11eb-872d-0a210cd76810.png"><br>
 
 ## 약 정보 검색
 
-* 파일 첨부기능 구현
-* 게시글 내용과 첨부파일 내역 및 다운로드 구현<br>
-<br><img src="주소f"><br>
+* `jQuery`를 활용한 약 정보 자동완성으로 검색
+* 공공 데이터 `API`를 통해 약 정보 리스트 제공
+* 복용 기록 개인화하여 관리 가능<br>
+<br><img src="https://user-images.githubusercontent.com/68896112/99145609-996d2300-26b3-11eb-910e-de7b05cdbdce.png"><br>
+<br><img src="https://user-images.githubusercontent.com/68896112/99145606-93774200-26b3-11eb-9a07-0dbc95ef5b74.png"><br>
+<br><img src="https://user-images.githubusercontent.com/68896112/99145665-0da7c680-26b4-11eb-8552-540b975b88c5.png"><br>
+
 
 ### 약 복용 그래프
-* num 컬럼으로 게시글 리스트 출력. (답글은 re_ref 컬럼으로 리스트 뿌려주기)
-* 페이징 구현
-* 로그인 상태만 글쓰기 가능<br>
-<br><img src="주소f"><br>
+* 복용 주기 입력을 통해 약의 효과 지속시간을 가시적으로 표현
+* 효과 발현은 40%(임의 지정) 지점부터 증대 <br>
+<br><img src="https://user-images.githubusercontent.com/68896112/99145625-b9044b80-26b3-11eb-9f50-85363de13a5a.png"><br>
+<br><img src="https://user-images.githubusercontent.com/68896112/99145628-c02b5980-26b3-11eb-8d67-e20d49e096da.gif"><br>
 
 ## 문자 발송
-* 이미지 업로드 및 댓글등록 및 삭제 구현
-* 목록에서 이미지 출력<br>
-<br><img src="주소f"><br>
+* 재복용 시간에 재복용 `알림 문자 전송`<br>
+<br><img src="https://user-images.githubusercontent.com/68896112/99145645-e224dc00-26b3-11eb-990e-a4d6eb0043b8.png"><br>
 
 ## 약국 지도
-* `javax.mail` 라이브러리와 SMTP를 활용하여 이메일 발송 기능 구현<br>
-<br><img src="주소f"><br>
+* 공공데이터에서 약 22,000개의 약국 정보 파싱하여 위치 표현<br>
+<br><img src="https://user-images.githubusercontent.com/68896112/99145648-e4873600-26b3-11eb-8668-90dffae14e3c.png"><br>
 
 ### Copyright © 2020 YUZU LEE&Team4(Busan)
